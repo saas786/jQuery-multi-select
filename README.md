@@ -1,4 +1,4 @@
-jQuery-multi-select-
+jQuery-multi-select
 ====================
 
-jQuery plugin for multi-select
+Simple jQuery plugin for multi-select element
