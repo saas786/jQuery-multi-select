@@ -8,7 +8,7 @@ $.fn.multiSelect = function() {
 	
 	$(this).change(function(e) {
     	var option = '<div class="option" id="' +  $(this).find('option:selected').val() +'">' +
-    			'<input type="hidden" name="' + $(this).attr("id") + '_options[]" value="' + $(this).find('option:selected').val() + '" />' +
+    			'<input type="hidden" name="' + $(this).attr("id") + '-options[]" value="' + $(this).find('option:selected').val() + '" />' +
 	    		'<span>' + $(this).find('option:selected').text() + '</span>' + 
 	    		'<a href="#" class="remove-option icon icon-remove">X</a>' +
     		'</div>';
